@@ -15,5 +15,7 @@
             "email": "sander@legionelladossier.com"
         }
     ],
-    "require": {}
+    "require": {
+        "grpc/grpc": "^1.57"
+    }
 }
