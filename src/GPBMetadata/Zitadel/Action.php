@@ -17,7 +17,7 @@ class Action
         }
         \GPBMetadata\Zitadel\Object_::initOnce();
         \GPBMetadata\Zitadel\Message::initOnce();
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
         
         $pool->internalAddGeneratedFile(

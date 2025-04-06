@@ -18,7 +18,7 @@ class Email
         \GPBMetadata\Google\Api\Annotations::initOnce();
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         $pool->internalAddGeneratedFile(
             "\x0A\xBD\x06\x0A\x1Bzitadel/user/v2/email.proto\x12\x0Fzitadel.user.v2\x1A\x1Fgoogle/api/field_behavior.proto\x1A.protoc-gen-openapiv2/options/annotations.proto\x1A\x17validate/validate.proto\"\xA1\x02\x0A\x0DSetHumanEmail\x12A\x0A\x05email\x18\x01 \x01(\x09B+\x92A\x18J\x10\"mini@mouse.com\"x\xC8\x01\x80\x01\x01\xE2A\x01\x02\xFAB\x09r\x07\x10\x01\x18\xC8\x01`\x01R\x05email\x12I\x0A\x09send_code\x18\x02 \x01(\x0B2*.zitadel.user.v2.SendEmailVerificationCodeH\x00R\x08sendCode\x12O\x0A\x0Breturn_code\x18\x03 \x01(\x0B2,.zitadel.user.v2.ReturnEmailVerificationCodeH\x00R\x0AreturnCode\x12!\x0A\x0Bis_verified\x18\x04 \x01(\x08H\x00R\x0AisVerifiedB\x0E\x0A\x0Cverification\"`\x0A\x0AHumanEmail\x121\x0A\x05email\x18\x01 \x01(\x09B\x1B\x92A\x18J\x10\"mini@mouse.com\"x\xC8\x01\x80\x01\x01R\x05email\x12\x1F\x0A\x0Bis_verified\x18\x02 \x01(\x08R\x0AisVerified\"\xC1\x01\x0A\x19SendEmailVerificationCode\x12\x92\x01\x0A\x0Curl_template\x18\x01 \x01(\x09Bj\x92A]JU\"https://example.com/email/verify?userID={{.UserID}}&code={{.Code}}&orgID={{.OrgID}}\"x\xC8\x01\x80\x01\x01\xFAB\x07r\x05\x10\x01\x18\xC8\x01H\x00R\x0BurlTemplate\x88\x01\x01B\x0F\x0A\x0D_url_template\"\x1D\x0A\x1BReturnEmailVerificationCodeB2Z0github.com/zitadel/zitadel/pkg/grpc/user/v2;userb\x06proto3"
         , true);

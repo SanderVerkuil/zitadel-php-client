@@ -23,7 +23,7 @@ class Auth
         \GPBMetadata\Zitadel\Policy::initOnce();
         \GPBMetadata\Zitadel\Idp::initOnce();
         \GPBMetadata\Zitadel\Metadata::initOnce();
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         \GPBMetadata\Google\Api\Annotations::initOnce();
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
         \GPBMetadata\Google\Protobuf\Duration::initOnce();

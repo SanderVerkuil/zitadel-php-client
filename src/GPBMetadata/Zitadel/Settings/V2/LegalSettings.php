@@ -17,7 +17,7 @@ class LegalSettings
         }
         
         \GPBMetadata\Zitadel\Settings\V2\Settings::initOnce();
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         $pool->internalAddGeneratedFile(
             "\x0A\x98\x09\x0A(zitadel/settings/v2/legal_settings.proto\x12\x13zitadel.settings.v2\x1A\"zitadel/settings/v2/settings.proto\x1A\x17validate/validate.proto\"\xD5\x07\x0A\x17LegalAndSupportSettings\x12Q\x0A\x08tos_link\x18\x01 \x01(\x09B6\x92A3J1\"https://zitadel.com/docs/legal/terms-of-service\"R\x07tosLink\x12d\x0A\x13privacy_policy_link\x18\x02 \x01(\x09B4\x92A1J/\"https://zitadel.com/docs/legal/privacy-policy\"R\x11privacyPolicyLink\x12Q\x0A\x09help_link\x18\x03 \x01(\x09B4\x92A1J/\"https://zitadel.com/docs/manuals/introduction\"R\x08helpLink\x12n\x0A\x0Dsupport_email\x18\x04 \x01(\x09BI\x92A92\x1Dhelp / support email address.J\x18\"support-email@test.com\"\xFAB\x0Ar\x08\x18\xC0\x02`\x01\xD0\x01\x01R\x0CsupportEmail\x12\xB9\x01\x0A\x13resource_owner_type\x18\x05 \x01(\x0E2&.zitadel.settings.v2.ResourceOwnerTypeBa\x92A^2\\resource_owner_type returns if the setting is managed on the organization or on the instanceR\x11resourceOwnerType\x12o\x0A\x09docs_link\x18\x06 \x01(\x09BR\x92AO21Link to documentation to be shown in the console.J\x1A\"https://zitadel.com/docs\"R\x08docsLink\x12\x8B\x01\x0A\x0Bcustom_link\x18\x07 \x01(\x09Bj\x92Ag2LLink to an external resource that will be available to users in the console.J\x17\"https://external.link\"R\x0AcustomLink\x12\x82\x01\x0A\x10custom_link_text\x18\x08 \x01(\x09BX\x92AU2GThe button text that would be shown in console pointing to custom link.J\x0A\"External\"R\x0EcustomLinkTextB:Z8github.com/zitadel/zitadel/pkg/grpc/settings/v2;settingsb\x06proto3"
         , true);

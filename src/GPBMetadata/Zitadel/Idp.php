@@ -16,7 +16,7 @@ class Idp
           return;
         }
         \GPBMetadata\Zitadel\Object_::initOnce();
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
         $pool->internalAddGeneratedFile(

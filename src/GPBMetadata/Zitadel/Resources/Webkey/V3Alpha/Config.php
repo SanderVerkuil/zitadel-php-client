@@ -15,7 +15,7 @@ class Config
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         $pool->internalAddGeneratedFile(
             "\x0A\xB8\x06\x0A-zitadel/resources/webkey/v3alpha/config.proto\x12 zitadel.resources.webkey.v3alpha\"\x99\x03\x0A\x0FWebKeyRSAConfig\x12Y\x0A\x04bits\x18\x01 \x01(\x0E29.zitadel.resources.webkey.v3alpha.WebKeyRSAConfig.RSABitsB\x0A\xFAB\x07\x82\x01\x04\x10\x01 \x00R\x04bits\x12_\x0A\x06hasher\x18\x02 \x01(\x0E2;.zitadel.resources.webkey.v3alpha.WebKeyRSAConfig.RSAHasherB\x0A\xFAB\x07\x82\x01\x04\x10\x01 \x00R\x06hasher\"\\\x0A\x07RSABits\x12\x18\x0A\x14RSA_BITS_UNSPECIFIED\x10\x00\x12\x11\x0A\x0DRSA_BITS_2048\x10\x01\x12\x11\x0A\x0DRSA_BITS_3072\x10\x02\x12\x11\x0A\x0DRSA_BITS_4096\x10\x03\"l\x0A\x09RSAHasher\x12\x1A\x0A\x16RSA_HASHER_UNSPECIFIED\x10\x00\x12\x15\x0A\x11RSA_HASHER_SHA256\x10\x01\x12\x15\x0A\x11RSA_HASHER_SHA384\x10\x02\x12\x15\x0A\x11RSA_HASHER_SHA512\x10\x03\"\xE2\x01\x0A\x11WebKeyECDSAConfig\x12`\x0A\x05curve\x18\x01 \x01(\x0E2>.zitadel.resources.webkey.v3alpha.WebKeyECDSAConfig.ECDSACurveB\x0A\xFAB\x07\x82\x01\x04\x10\x01 \x00R\x05curve\"k\x0A\x0AECDSACurve\x12\x1B\x0A\x17ECDSA_CURVE_UNSPECIFIED\x10\x00\x12\x14\x0A\x10ECDSA_CURVE_P256\x10\x01\x12\x14\x0A\x10ECDSA_CURVE_P384\x10\x02\x12\x14\x0A\x10ECDSA_CURVE_P512\x10\x03\"\x15\x0A\x13WebKeyED25519ConfigBEZCgithub.com/zitadel/zitadel/pkg/grpc/resources/webkey/v3alpha;webkeyb\x06proto3"
         , true);

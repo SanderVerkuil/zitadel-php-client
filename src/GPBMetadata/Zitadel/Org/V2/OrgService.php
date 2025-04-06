@@ -29,7 +29,7 @@ class OrgService
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
         \GPBMetadata\Google\Protobuf\Struct::initOnce();
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         \GPBMetadata\Zitadel\Org\V2\Org::initOnce();
         \GPBMetadata\Zitadel\Org\V2\Query::initOnce();
         $pool->internalAddGeneratedFile(

@@ -20,7 +20,7 @@ class UserSchemaService
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
         \GPBMetadata\Google\Protobuf\Struct::initOnce();
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         \GPBMetadata\Zitadel\Object\V3Alpha\Object_::initOnce();
         \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object_::initOnce();
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();

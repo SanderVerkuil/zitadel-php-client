@@ -17,7 +17,7 @@ class Metadata
         }
         \GPBMetadata\Zitadel\Object_::initOnce();
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         $pool->internalAddGeneratedFile(
             "\x0A\xB3\x05\x0A\x16zitadel/metadata.proto\x12\x13zitadel.metadata.v1\x1A.protoc-gen-openapiv2/options/annotations.proto\x1A\x17validate/validate.proto\"\xF4\x01\x0A\x08Metadata\x123\x0A\x07details\x18\x01 \x01(\x0B2\x19.zitadel.v1.ObjectDetailsR\x07details\x12+\x0A\x03key\x18\x02 \x01(\x09B\x19\x92A\x162\x0Cmetadata keyJ\x06\"key1\"R\x03key\x12\x85\x01\x0A\x05value\x18\x03 \x01(\x0CBo\x92Al2Fmetadata value is base64 encoded, make sure to decode to get the valueJ\"\"VGhpcyBpcyBteSBmaXJzdCB2YWx1ZQ==\"R\x05value\"c\x0A\x0DMetadataQuery\x12D\x0A\x09key_query\x18\x01 \x01(\x0B2%.zitadel.metadata.v1.MetadataKeyQueryH\x00R\x08keyQueryB\x0C\x0A\x05query\x12\x03\xF8B\x01\"\xA6\x01\x0A\x10MetadataKeyQuery\x12\$\x0A\x03key\x18\x01 \x01(\x09B\x12\x92A\x07J\x05\"key\"\xFAB\x05r\x03\x18\xC8\x01R\x03key\x12l\x0A\x06method\x18\x02 \x01(\x0E2\x1B.zitadel.v1.TextQueryMethodB7\x92A,2*defines which text equality method is used\xFAB\x05\x82\x01\x02\x10\x01R\x06methodB.Z,github.com/zitadel/zitadel/pkg/grpc/metadatab\x06proto3"
         , true);

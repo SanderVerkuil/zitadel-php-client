@@ -18,7 +18,7 @@ class Query
         \GPBMetadata\Google\Api\Annotations::initOnce();
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         \GPBMetadata\Zitadel\Org\V2\Org::initOnce();
         \GPBMetadata\Zitadel\Object\V2\Object_::initOnce();
         $pool->internalAddGeneratedFile(

@@ -17,7 +17,7 @@ class UserSchema
         }
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
         \GPBMetadata\Google\Protobuf\Struct::initOnce();
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         
         \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object_::initOnce();
         $pool->internalAddGeneratedFile(

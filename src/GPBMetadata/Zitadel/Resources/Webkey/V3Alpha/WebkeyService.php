@@ -18,7 +18,7 @@ class WebkeyService
         \GPBMetadata\Google\Api\Annotations::initOnce();
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();
         \GPBMetadata\Zitadel\Resources\Webkey\V3Alpha\Key::initOnce();
         \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object_::initOnce();

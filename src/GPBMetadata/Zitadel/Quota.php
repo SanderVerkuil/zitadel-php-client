@@ -16,7 +16,7 @@ class Quota
           return;
         }
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         $pool->internalAddGeneratedFile(
             "\x0A\xAC\x05\x0A\x13zitadel/quota.proto\x12\x10zitadel.quota.v1\x1A\x17validate/validate.proto\"\xCD\x03\x0A\x0CNotification\x12z\x0A\x07percent\x18\x01 \x01(\x0DB`\x92AV2TThe percentage relative to the quotas amount on which the call_url should be called.\xFAB\x04*\x02 \x00R\x07percent\x12i\x0A\x06repeat\x18\x02 \x01(\x08BQ\x92AN2LIf true, the call_url is called each time a factor of percentage is reached.R\x06repeat\x12\xD5\x01\x0A\x08call_url\x18\x03 \x01(\x09B\xB9\x01\x92A\xAB\x012\xA8\x01The URL, which is called with HTTP method POST and a JSON payload with the properties \"unit\", \"id\" (notification id), \"callURL\", \"periodStart\", \"threshold\" and \"usage\".\xFAB\x07r\x05\x10\x01\x18\xC8\x01R\x07callUrl*e\x0A\x04Unit\x12\x16\x0A\x12UNIT_UNIMPLEMENTED\x10\x00\x12#\x0A\x1FUNIT_REQUESTS_ALL_AUTHENTICATED\x10\x01\x12 \x0A\x1CUNIT_ACTIONS_ALL_RUN_SECONDS\x10\x02B+Z)github.com/zitadel/zitadel/pkg/grpc/quotab\x06proto3"
         , true);

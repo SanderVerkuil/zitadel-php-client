@@ -20,7 +20,7 @@ class ActionService
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
         \GPBMetadata\Google\Protobuf\Struct::initOnce();
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();
         \GPBMetadata\Zitadel\Resources\Action\V3Alpha\Target::initOnce();
         \GPBMetadata\Zitadel\Resources\Action\V3Alpha\Execution::initOnce();

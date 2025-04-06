@@ -17,7 +17,7 @@ class Object_
         }
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         $pool->internalAddGeneratedFile(
             "\x0A\xAC\x04\x0A#zitadel/object/v3alpha/object.proto\x12\x16zitadel.object.v3alpha\x1A.protoc-gen-openapiv2/options/annotations.proto\x1A\x17validate/validate.proto\"N\x0A\x05Owner\x125\x0A\x04type\x18\x01 \x01(\x0E2!.zitadel.object.v3alpha.OwnerTypeR\x04type\x12\x0E\x0A\x02id\x18\x02 \x01(\x09R\x02id\"G\x0A\x08Instance\x12\x10\x0A\x02id\x18\x01 \x01(\x09H\x00R\x02id\x12\x18\x0A\x06domain\x18\x02 \x01(\x09H\x00R\x06domainB\x0F\x0A\x08property\x12\x03\xF8B\x01\"Y\x0A\x0COrganization\x12\x17\x0A\x06org_id\x18\x01 \x01(\x09H\x00R\x05orgId\x12\x1F\x0A\x0Aorg_domain\x18\x02 \x01(\x09H\x00R\x09orgDomainB\x0F\x0A\x08property\x12\x03\xF8B\x01*k\x0A\x09OwnerType\x12\x1A\x0A\x16OWNER_TYPE_UNSPECIFIED\x10\x00\x12\x15\x0A\x11OWNER_TYPE_SYSTEM\x10\x01\x12\x17\x0A\x13OWNER_TYPE_INSTANCE\x10\x02\x12\x12\x0A\x0EOWNER_TYPE_ORG\x10\x03B;Z9github.com/zitadel/zitadel/pkg/grpc/object/v3alpha;objectb\x06proto3"
         , true);

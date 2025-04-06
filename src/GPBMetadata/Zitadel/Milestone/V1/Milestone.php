@@ -16,7 +16,7 @@ class Milestone
           return;
         }
         \GPBMetadata\Zitadel\Object_::initOnce();
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();
         
         $pool->internalAddGeneratedFile(

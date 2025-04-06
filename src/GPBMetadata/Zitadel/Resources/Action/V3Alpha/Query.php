@@ -17,7 +17,7 @@ class Query
         }
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object_::initOnce();
         \GPBMetadata\Zitadel\Resources\Action\V3Alpha\Execution::initOnce();
         $pool->internalAddGeneratedFile(

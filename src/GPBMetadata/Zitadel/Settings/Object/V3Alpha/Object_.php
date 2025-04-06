@@ -17,7 +17,7 @@ class Object_
         }
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
         \GPBMetadata\Zitadel\Object\V3Alpha\Object_::initOnce();
         $pool->internalAddGeneratedFile(

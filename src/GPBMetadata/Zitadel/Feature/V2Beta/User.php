@@ -16,7 +16,7 @@ class User
           return;
         }
         
-        \GPBMetadata\Validate\Validate::initOnce();
+        
         \GPBMetadata\Zitadel\Object\V2Beta\Object_::initOnce();
         \GPBMetadata\Zitadel\Feature\V2Beta\Feature::initOnce();
         $pool->internalAddGeneratedFile(
