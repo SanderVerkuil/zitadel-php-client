@@ -15,7 +15,7 @@ class Settings
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         $pool->internalAddGeneratedFile(
             "\x0A\xF6\x01\x0A\"zitadel/settings/v2/settings.proto\x12\x13zitadel.settings.v2*w\x0A\x11ResourceOwnerType\x12#\x0A\x1FRESOURCE_OWNER_TYPE_UNSPECIFIED\x10\x00\x12 \x0A\x1CRESOURCE_OWNER_TYPE_INSTANCE\x10\x01\x12\x1B\x0A\x17RESOURCE_OWNER_TYPE_ORG\x10\x02B:Z8github.com/zitadel/zitadel/pkg/grpc/settings/v2;settingsb\x06proto3"
         , true);

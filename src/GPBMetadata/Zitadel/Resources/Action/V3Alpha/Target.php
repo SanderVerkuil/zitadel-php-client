@@ -19,7 +19,7 @@ class Target
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
         \GPBMetadata\Google\Protobuf\Struct::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();

@@ -28,7 +28,7 @@ class OrgService
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
         \GPBMetadata\Google\Protobuf\Struct::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Zitadel\Org\V2\Org::initOnce();
         \GPBMetadata\Zitadel\Org\V2\Query::initOnce();

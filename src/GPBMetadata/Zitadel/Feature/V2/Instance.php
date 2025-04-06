@@ -15,7 +15,7 @@ class Instance
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Zitadel\Object\V2\Object_::initOnce();
         \GPBMetadata\Zitadel\Feature\V2\Feature::initOnce();

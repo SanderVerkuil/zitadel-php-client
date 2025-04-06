@@ -18,7 +18,7 @@ class Authenticator
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
         \GPBMetadata\Google\Protobuf\Struct::initOnce();
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object_::initOnce();
         $pool->internalAddGeneratedFile(

@@ -15,7 +15,7 @@ class LoginSettings
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Zitadel\Settings\V2Beta\Settings::initOnce();
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
         $pool->internalAddGeneratedFile(

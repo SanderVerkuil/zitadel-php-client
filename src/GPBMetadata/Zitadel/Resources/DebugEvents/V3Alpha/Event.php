@@ -16,7 +16,7 @@ class Event
           return;
         }
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         $pool->internalAddGeneratedFile(
             "\x0A\xC8\x06\x0A2zitadel/resources/debug_events/v3alpha/event.proto\x12&zitadel.resources.debug_events.v3alpha\x1A.protoc-gen-openapiv2/options/annotations.proto\"\xF8\x01\x0A\x05Event\x12F\x0A\x03add\x18\x01 \x01(\x0B22.zitadel.resources.debug_events.v3alpha.AddedEventH\x00R\x03add\x12N\x0A\x06change\x18\x02 \x01(\x0B24.zitadel.resources.debug_events.v3alpha.ChangedEventH\x00R\x06change\x12N\x0A\x06remove\x18\x03 \x01(\x0B24.zitadel.resources.debug_events.v3alpha.RemovedEventH\x00R\x06removeB\x07\x0A\x05event\"\x7F\x0A\x0AAddedEvent\x12O\x0A\x10projection_sleep\x18\x01 \x01(\x0B2\x19.google.protobuf.DurationB\x09\x92A\x06J\x04\"5s\"R\x0FprojectionSleep\x12\x17\x0A\x04blob\x18\x02 \x01(\x09H\x00R\x04blob\x88\x01\x01B\x07\x0A\x05_blob\"\x81\x01\x0A\x0CChangedEvent\x12O\x0A\x10projection_sleep\x18\x01 \x01(\x0B2\x19.google.protobuf.DurationB\x09\x92A\x06J\x04\"5s\"R\x0FprojectionSleep\x12\x17\x0A\x04blob\x18\x02 \x01(\x09H\x00R\x04blob\x88\x01\x01B\x07\x0A\x05_blob\"_\x0A\x0CRemovedEvent\x12O\x0A\x10projection_sleep\x18\x01 \x01(\x0B2\x19.google.protobuf.DurationB\x09\x92A\x06J\x04\"5s\"R\x0FprojectionSleepBQZOgithub.com/zitadel/zitadel/pkg/grpc/resources/debug_events/v3alpha;debug_eventsb\x06proto3"
         , true);

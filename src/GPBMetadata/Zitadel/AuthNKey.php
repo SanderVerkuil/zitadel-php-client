@@ -17,7 +17,7 @@ class AuthNKey
         }
         \GPBMetadata\Zitadel\Object_::initOnce();
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         $pool->internalAddGeneratedFile(
             "\x0A\xB6\x04\x0A\x18zitadel/auth_n_key.proto\x12\x10zitadel.authn.v1\x1A\x1Fgoogle/protobuf/timestamp.proto\x1A.protoc-gen-openapiv2/options/annotations.proto\"\xC9\x02\x0A\x03Key\x12(\x0A\x02id\x18\x01 \x01(\x09B\x18\x92A\x15J\x13\"69629023906488334\"R\x02id\x123\x0A\x07details\x18\x02 \x01(\x0B2\x19.zitadel.v1.ObjectDetailsR\x07details\x12]\x0A\x04type\x18\x03 \x01(\x0E2\x19.zitadel.authn.v1.KeyTypeB.\x92A+2\x18the file type of the keyJ\x0F\"KEY_TYPE_JSON\"R\x04type\x12\x83\x01\x0A\x0Fexpiration_date\x18\x04 \x01(\x0B2\x1A.google.protobuf.TimestampB>\x92A;2\x1Athe date a key will expireJ\x1D\"3019-04-01T08:45:00.000000Z\"R\x0EexpirationDate*6\x0A\x07KeyType\x12\x18\x0A\x14KEY_TYPE_UNSPECIFIED\x10\x00\x12\x11\x0A\x0DKEY_TYPE_JSON\x10\x01B+Z)github.com/zitadel/zitadel/pkg/grpc/authnb\x06proto3"
         , true);

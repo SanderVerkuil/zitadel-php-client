@@ -17,7 +17,7 @@ class DebugEventsService
         }
         \GPBMetadata\Google\Api\Annotations::initOnce();
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();
         \GPBMetadata\Zitadel\Object\V3Alpha\Object_::initOnce();

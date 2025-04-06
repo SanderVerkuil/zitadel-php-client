@@ -15,7 +15,7 @@ class LegalSettings
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Zitadel\Settings\V2\Settings::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
         $pool->internalAddGeneratedFile(

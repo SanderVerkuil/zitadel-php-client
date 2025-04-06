@@ -16,7 +16,7 @@ class FeatureService
           return;
         }
         \GPBMetadata\Google\Api\Annotations::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Zitadel\Feature\V2Beta\System::initOnce();
         \GPBMetadata\Zitadel\Feature\V2Beta\Instance::initOnce();
         \GPBMetadata\Zitadel\Feature\V2Beta\Organization::initOnce();

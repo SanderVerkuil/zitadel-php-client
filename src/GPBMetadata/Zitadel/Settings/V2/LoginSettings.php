@@ -15,7 +15,7 @@ class LoginSettings
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Zitadel\Settings\V2\Settings::initOnce();
         \GPBMetadata\Zitadel\Idp\V2\Idp::initOnce();
         \GPBMetadata\Google\Protobuf\Duration::initOnce();

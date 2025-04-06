@@ -16,7 +16,7 @@ class Object_
           return;
         }
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
         \GPBMetadata\Zitadel\Object\V3Alpha\Object_::initOnce();

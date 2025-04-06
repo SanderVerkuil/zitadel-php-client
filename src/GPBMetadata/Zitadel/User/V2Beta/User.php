@@ -17,7 +17,7 @@ class User
         }
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Zitadel\Object\V2Beta\Object_::initOnce();
         \GPBMetadata\Zitadel\User\V2Beta\Email::initOnce();

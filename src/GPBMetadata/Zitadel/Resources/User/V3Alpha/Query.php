@@ -16,7 +16,7 @@ class Query
           return;
         }
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Zitadel\Resources\User\V3Alpha\User::initOnce();
         \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object_::initOnce();

@@ -20,7 +20,7 @@ class V1
         \GPBMetadata\Zitadel\Org::initOnce();
         \GPBMetadata\Zitadel\Management::initOnce();
         \GPBMetadata\Zitadel\AuthNKey::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
         $pool->internalAddGeneratedFile(

@@ -19,7 +19,7 @@ class IdpService
         \GPBMetadata\Zitadel\Object\V2\Object_::initOnce();
         \GPBMetadata\Google\Api\Annotations::initOnce();
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
-        \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
+        
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Zitadel\Idp\V2\Idp::initOnce();
         $pool->internalAddGeneratedFile(
