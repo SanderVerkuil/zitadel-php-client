@@ -15,7 +15,7 @@ class OidcService
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\Zitadel\Object\V2\Object::initOnce();
+        \GPBMetadata\Zitadel\Object\V2\Object_::initOnce();
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();
         \GPBMetadata\Zitadel\Oidc\V2\Authorization::initOnce();
         \GPBMetadata\Google\Api\Annotations::initOnce();

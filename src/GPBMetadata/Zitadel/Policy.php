@@ -15,7 +15,7 @@ class Policy
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\Zitadel\Object::initOnce();
+        \GPBMetadata\Zitadel\Object_::initOnce();
         \GPBMetadata\Zitadel\Idp::initOnce();
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
         \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();

@@ -16,7 +16,7 @@ class SettingsService
           return;
         }
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();
-        \GPBMetadata\Zitadel\Object\V2\Object::initOnce();
+        \GPBMetadata\Zitadel\Object\V2\Object_::initOnce();
         \GPBMetadata\Zitadel\Settings\V2\BrandingSettings::initOnce();
         \GPBMetadata\Zitadel\Settings\V2\DomainSettings::initOnce();
         \GPBMetadata\Zitadel\Settings\V2\LegalSettings::initOnce();

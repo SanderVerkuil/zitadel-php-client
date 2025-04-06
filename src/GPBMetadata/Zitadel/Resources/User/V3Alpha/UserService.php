@@ -21,8 +21,8 @@ class UserService
         \GPBMetadata\Google\Protobuf\Struct::initOnce();
         \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
-        \GPBMetadata\Zitadel\Object\V3Alpha\Object::initOnce();
-        \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object::initOnce();
+        \GPBMetadata\Zitadel\Object\V3Alpha\Object_::initOnce();
+        \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object_::initOnce();
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();
         \GPBMetadata\Zitadel\Resources\User\V3Alpha\Authenticator::initOnce();
         \GPBMetadata\Zitadel\Resources\User\V3Alpha\Communication::initOnce();

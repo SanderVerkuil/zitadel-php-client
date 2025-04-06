@@ -20,8 +20,8 @@ class DebugEventsService
         \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();
-        \GPBMetadata\Zitadel\Object\V3Alpha\Object::initOnce();
-        \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object::initOnce();
+        \GPBMetadata\Zitadel\Object\V3Alpha\Object_::initOnce();
+        \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object_::initOnce();
         \GPBMetadata\Zitadel\Resources\DebugEvents\V3Alpha\Event::initOnce();
         \GPBMetadata\Zitadel\Resources\DebugEvents\V3Alpha\State::initOnce();
         $pool->internalAddGeneratedFile(

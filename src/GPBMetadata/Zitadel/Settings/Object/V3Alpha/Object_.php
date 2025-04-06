@@ -5,7 +5,7 @@
 
 namespace GPBMetadata\Zitadel\Settings\Object\V3Alpha;
 
-class Object
+class Object_
 {
     public static $is_initialized = false;
 
@@ -19,7 +19,7 @@ class Object
         \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Google\Protobuf\Duration::initOnce();
-        \GPBMetadata\Zitadel\Object\V3Alpha\Object::initOnce();
+        \GPBMetadata\Zitadel\Object\V3Alpha\Object_::initOnce();
         $pool->internalAddGeneratedFile(
             "\x0A\xE9\x03\x0A,zitadel/settings/object/v3alpha/object.proto\x12\x1Fzitadel.settings.object.v3alpha\x1A.protoc-gen-openapiv2/options/annotations.proto\x1A\x17validate/validate.proto\x1A\x1Egoogle/protobuf/duration.proto\x1A#zitadel/object/v3alpha/object.proto\"\xBB\x01\x0A\x07Details\x12\$\x0A\x08sequence\x18\x01 \x01(\x04B\x08\x92A\x05J\x03\"2\"R\x08sequence\x12;\x0A\x0Bchange_date\x18\x02 \x01(\x0B2\x1A.google.protobuf.TimestampR\x0AchangeDate\x12M\x0A\x05owner\x18\x03 \x01(\x0B2\x1D.zitadel.object.v3alpha.OwnerB\x18\x92A\x15J\x13\"69629023906488334\"R\x05ownerBDZBgithub.com/zitadel/zitadel/pkg/grpc/settings/object/v3alpha;objectb\x06proto3"
         , true);

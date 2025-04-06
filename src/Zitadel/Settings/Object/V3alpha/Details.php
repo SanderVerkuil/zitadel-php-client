@@ -56,7 +56,7 @@ class Details extends \Google\Protobuf\Internal\Message
      * }
      */
     public function __construct($data = NULL) {
-        \GPBMetadata\Zitadel\Settings\Object\V3Alpha\Object::initOnce();
+        \GPBMetadata\Zitadel\Settings\Object\V3Alpha\Object_::initOnce();
         parent::__construct($data);
     }
 

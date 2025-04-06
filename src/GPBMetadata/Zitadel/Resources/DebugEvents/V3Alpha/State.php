@@ -15,7 +15,7 @@ class State
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object::initOnce();
+        \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object_::initOnce();
         $pool->internalAddGeneratedFile(
             "\x0A\x99\x02\x0A2zitadel/resources/debug_events/v3alpha/state.proto\x12&zitadel.resources.debug_events.v3alpha\"`\x0A\x05State\x12C\x0A\x07details\x18\x01 \x01(\x0B2).zitadel.resources.object.v3alpha.DetailsR\x07details\x12\x12\x0A\x04blob\x18\x02 \x01(\x09R\x04blobBQZOgithub.com/zitadel/zitadel/pkg/grpc/resources/debug_events/v3alpha;debug_eventsb\x06proto3"
         , true);

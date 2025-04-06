@@ -19,7 +19,7 @@ class User
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();
         \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
-        \GPBMetadata\Zitadel\Object\V2Beta\Object::initOnce();
+        \GPBMetadata\Zitadel\Object\V2Beta\Object_::initOnce();
         \GPBMetadata\Zitadel\User\V2Beta\Email::initOnce();
         \GPBMetadata\Zitadel\User\V2Beta\Phone::initOnce();
         $pool->internalAddGeneratedFile(

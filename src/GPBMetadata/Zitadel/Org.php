@@ -15,7 +15,7 @@ class Org
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\Zitadel\Object::initOnce();
+        \GPBMetadata\Zitadel\Object_::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
         $pool->internalAddGeneratedFile(

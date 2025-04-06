@@ -15,7 +15,7 @@ class Idp
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\Zitadel\Object::initOnce();
+        \GPBMetadata\Zitadel\Object_::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
         \GPBMetadata\Google\Protobuf\Duration::initOnce();

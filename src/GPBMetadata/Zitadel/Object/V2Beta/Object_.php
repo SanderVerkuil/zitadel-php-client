@@ -5,7 +5,7 @@
 
 namespace GPBMetadata\Zitadel\Object\V2Beta;
 
-class Object
+class Object_
 {
     public static $is_initialized = false;
 

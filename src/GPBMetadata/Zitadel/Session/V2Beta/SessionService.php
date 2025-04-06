@@ -15,7 +15,7 @@ class SessionService
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\Zitadel\Object\V2Beta\Object::initOnce();
+        \GPBMetadata\Zitadel\Object\V2Beta\Object_::initOnce();
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();
         \GPBMetadata\Zitadel\Session\V2Beta\Challenge::initOnce();
         \GPBMetadata\Zitadel\Session\V2Beta\Session::initOnce();

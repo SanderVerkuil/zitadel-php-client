@@ -15,7 +15,7 @@ class UserService
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\Zitadel\Object\V2Beta\Object::initOnce();
+        \GPBMetadata\Zitadel\Object\V2Beta\Object_::initOnce();
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();
         \GPBMetadata\Zitadel\User\V2Beta\Auth::initOnce();
         \GPBMetadata\Zitadel\User\V2Beta\Email::initOnce();

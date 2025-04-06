@@ -16,7 +16,7 @@ class IdpService
           return;
         }
         \GPBMetadata\Zitadel\ProtocGenZitadel\V2\Options::initOnce();
-        \GPBMetadata\Zitadel\Object\V2\Object::initOnce();
+        \GPBMetadata\Zitadel\Object\V2\Object_::initOnce();
         \GPBMetadata\Google\Api\Annotations::initOnce();
         \GPBMetadata\Google\Api\FieldBehavior::initOnce();
         \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();

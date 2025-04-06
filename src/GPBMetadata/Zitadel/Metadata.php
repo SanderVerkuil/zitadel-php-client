@@ -15,7 +15,7 @@ class Metadata
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\Zitadel\Object::initOnce();
+        \GPBMetadata\Zitadel\Object_::initOnce();
         \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
         $pool->internalAddGeneratedFile(

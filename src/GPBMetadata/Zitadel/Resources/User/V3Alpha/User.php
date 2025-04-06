@@ -20,7 +20,7 @@ class User
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();
         \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
-        \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object::initOnce();
+        \GPBMetadata\Zitadel\Resources\Object\V3Alpha\Object_::initOnce();
         \GPBMetadata\Zitadel\Resources\User\V3Alpha\Authenticator::initOnce();
         \GPBMetadata\Zitadel\Resources\User\V3Alpha\Communication::initOnce();
         $pool->internalAddGeneratedFile(

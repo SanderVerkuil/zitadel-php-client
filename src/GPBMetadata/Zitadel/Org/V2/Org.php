@@ -19,7 +19,7 @@ class Org
         \GPBMetadata\Google\Protobuf\Timestamp::initOnce();
         \GPBMetadata\ProtocGenOpenapiv2\Options\Annotations::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
-        \GPBMetadata\Zitadel\Object\V2\Object::initOnce();
+        \GPBMetadata\Zitadel\Object\V2\Object_::initOnce();
         $pool->internalAddGeneratedFile(
             "\x0A\x93\x05\x0A\x18zitadel/org/v2/org.proto\x12\x0Ezitadel.org.v2\x1A\x1Fgoogle/protobuf/timestamp.proto\x1A.protoc-gen-openapiv2/options/annotations.proto\x1A\x17validate/validate.proto\x1A\x1Ezitadel/object/v2/object.proto\"\x88\x02\x0A\x0COrganization\x12(\x0A\x02id\x18\x01 \x01(\x09B\x18\x92A\x15J\x13\"69629023906488334\"R\x02id\x124\x0A\x07details\x18\x02 \x01(\x0B2\x1A.zitadel.object.v2.DetailsR\x07details\x127\x0A\x05state\x18\x03 \x01(\x0E2!.zitadel.org.v2.OrganizationStateR\x05state\x12\"\x0A\x04name\x18\x04 \x01(\x09B\x0E\x92A\x0BJ\x09\"ZITADEL\"R\x04name\x12;\x0A\x0Eprimary_domain\x18\x05 \x01(\x09B\x14\x92A\x11J\x0F\"zitadel.cloud\"R\x0DprimaryDomain*\x97\x01\x0A\x11OrganizationState\x12\"\x0A\x1EORGANIZATION_STATE_UNSPECIFIED\x10\x00\x12\x1D\x0A\x19ORGANIZATION_STATE_ACTIVE\x10\x01\x12\x1F\x0A\x1BORGANIZATION_STATE_INACTIVE\x10\x02\x12\x1E\x0A\x1AORGANIZATION_STATE_REMOVED\x10\x03B0Z.github.com/zitadel/zitadel/pkg/grpc/org/v2;orgb\x06proto3"
         , true);

@@ -18,7 +18,7 @@ class Auth
         \GPBMetadata\Zitadel\User::initOnce();
         \GPBMetadata\Zitadel\Org::initOnce();
         \GPBMetadata\Zitadel\Change::initOnce();
-        \GPBMetadata\Zitadel\Object::initOnce();
+        \GPBMetadata\Zitadel\Object_::initOnce();
         \GPBMetadata\Zitadel\Options::initOnce();
         \GPBMetadata\Zitadel\Policy::initOnce();
         \GPBMetadata\Zitadel\Idp::initOnce();

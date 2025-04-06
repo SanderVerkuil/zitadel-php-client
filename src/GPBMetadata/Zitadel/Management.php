@@ -18,7 +18,7 @@ class Management
         \GPBMetadata\Zitadel\App::initOnce();
         \GPBMetadata\Zitadel\Idp::initOnce();
         \GPBMetadata\Zitadel\User::initOnce();
-        \GPBMetadata\Zitadel\Object::initOnce();
+        \GPBMetadata\Zitadel\Object_::initOnce();
         \GPBMetadata\Zitadel\Options::initOnce();
         \GPBMetadata\Zitadel\Org::initOnce();
         \GPBMetadata\Zitadel\Member::initOnce();

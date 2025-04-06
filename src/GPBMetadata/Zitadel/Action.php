@@ -15,7 +15,7 @@ class Action
         if (static::$is_initialized == true) {
           return;
         }
-        \GPBMetadata\Zitadel\Object::initOnce();
+        \GPBMetadata\Zitadel\Object_::initOnce();
         \GPBMetadata\Zitadel\Message::initOnce();
         \GPBMetadata\Validate\Validate::initOnce();
         \GPBMetadata\Google\Protobuf\Duration::initOnce();

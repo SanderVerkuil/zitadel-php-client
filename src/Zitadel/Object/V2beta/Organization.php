@@ -27,7 +27,7 @@ class Organization extends \Google\Protobuf\Internal\Message
      * }
      */
     public function __construct($data = NULL) {
-        \GPBMetadata\Zitadel\Object\V2Beta\Object::initOnce();
+        \GPBMetadata\Zitadel\Object\V2Beta\Object_::initOnce();
         parent::__construct($data);
     }
 
