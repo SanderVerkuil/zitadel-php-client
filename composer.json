@@ -1,0 +1,18 @@
+{
+    "version": "v2.71.6",
+    "name": "sanderverkuil/zitadel-client-php",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "GPBMetadata\\": "src/GPBMetadata",
+            "Zitadel\\": "src/Zitadel"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sander Verkuil",
+            "email": "sander@legionelladossier.com"
+        }
+    ],
+    "require": {}
+}
